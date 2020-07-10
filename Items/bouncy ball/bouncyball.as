@@ -206,10 +206,10 @@ void onCollision(CBlob@ this, CBlob@ blob, bool solid, Vec2f normal, Vec2f point
 		}
 
 		//hitting less or similar mass
-		if (this.getMass() < blob.getMass() - 1.0f)
-		{
-			return;
-		}
+		//if (this.getMass() < blob.getMass() - 1.0f)
+		//{
+		//	return;
+		//}
 
 		//get the dmg required
 		hitvel.Normalize();

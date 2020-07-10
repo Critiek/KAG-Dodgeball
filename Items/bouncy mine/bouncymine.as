@@ -3,7 +3,7 @@
 #include "Hitters.as";
 #include "Explosion.as";
 
-const u8 MINE_PRIMING_TIME = 45;
+const u8 MINE_PRIMING_TIME = 30;
 
 const string MINE_STATE = "mine_state";
 const string MINE_TIMER = "mine_timer";
